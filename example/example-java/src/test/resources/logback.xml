@@ -5,8 +5,8 @@
     </encoder>
   </appender>
 
-  <logger name="org.camunda.bpm.engine" level="INFO"/>
-  <logger name="org.camunda.bpm.engine.persistence" level="WARN"/>
+  <logger name="org.cibseven.bpm.engine" level="INFO"/>
+  <logger name="org.cibseven.bpm.engine.persistence" level="WARN"/>
 
   <root level="INFO">
     <appender-ref ref="STDOUT"/>

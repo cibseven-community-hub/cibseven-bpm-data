@@ -5,16 +5,16 @@ import com.tngtech.jgiven.annotation.BeforeScenario
 import com.tngtech.jgiven.annotation.ProvidedScenarioState
 import com.tngtech.jgiven.integration.spring.JGivenStage
 import org.assertj.core.api.Assertions
-import org.camunda.bpm.engine.RepositoryService
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.repository.ProcessDefinition
-import org.camunda.bpm.engine.runtime.ProcessInstance
-import org.camunda.bpm.engine.task.Task
-import org.camunda.bpm.engine.variable.VariableMap
-import org.camunda.bpm.engine.variable.Variables
-import org.camunda.bpm.model.bpmn.Bpmn
-import org.camunda.bpm.model.bpmn.BpmnModelInstance
+import org.cibseven.bpm.engine.RepositoryService
+import org.cibseven.bpm.engine.RuntimeService
+import org.cibseven.bpm.engine.TaskService
+import org.cibseven.bpm.engine.repository.ProcessDefinition
+import org.cibseven.bpm.engine.runtime.ProcessInstance
+import org.cibseven.bpm.engine.task.Task
+import org.cibseven.bpm.engine.variable.VariableMap
+import org.cibseven.bpm.engine.variable.Variables
+import org.cibseven.bpm.model.bpmn.Bpmn
+import org.cibseven.bpm.model.bpmn.BpmnModelInstance
 import org.junit.jupiter.api.Assertions.assertThrows
 import org.springframework.beans.factory.annotation.Autowired
 

@@ -4,12 +4,12 @@ import io.holunda.camunda.bpm.data.adapter.ReadAdapter
 import io.holunda.camunda.bpm.data.adapter.WriteAdapter
 import io.holunda.camunda.bpm.data.adapter.listofmaps.*
 import java.util.*
-import org.camunda.bpm.engine.CaseService
-import org.camunda.bpm.engine.RuntimeService
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.delegate.VariableScope
-import org.camunda.bpm.engine.externaltask.LockedExternalTask
-import org.camunda.bpm.engine.variable.VariableMap
+import org.cibseven.bpm.engine.CaseService
+import org.cibseven.bpm.engine.RuntimeService
+import org.cibseven.bpm.engine.TaskService
+import org.cibseven.bpm.engine.delegate.VariableScope
+import org.cibseven.bpm.engine.externaltask.LockedExternalTask
+import org.cibseven.bpm.engine.variable.VariableMap
 
 /**
  * Variable factory of a base parametrized list of maps type.

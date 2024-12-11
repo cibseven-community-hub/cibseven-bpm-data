@@ -6,11 +6,11 @@ import io.holunda.camunda.bpm.data.adapter.set.SetReadWriteAdapterRuntimeService
 import io.holunda.camunda.bpm.data.adapter.set.SetReadWriteAdapterTaskService;
 import io.holunda.camunda.bpm.data.adapter.set.SetReadWriteAdapterVariableMap;
 import io.holunda.camunda.bpm.data.adapter.set.SetReadWriteAdapterVariableScope;
-import org.camunda.bpm.engine.CaseService;
-import org.camunda.bpm.engine.RuntimeService;
-import org.camunda.bpm.engine.TaskService;
-import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.camunda.bpm.engine.variable.VariableMap;
+import org.cibseven.bpm.engine.CaseService;
+import org.cibseven.bpm.engine.RuntimeService;
+import org.cibseven.bpm.engine.TaskService;
+import org.cibseven.bpm.engine.delegate.DelegateExecution;
+import org.cibseven.bpm.engine.variable.VariableMap;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;

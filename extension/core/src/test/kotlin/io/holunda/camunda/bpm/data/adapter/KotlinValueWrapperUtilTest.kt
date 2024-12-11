@@ -1,8 +1,8 @@
 package io.holunda.camunda.bpm.data.adapter
 
 import org.assertj.core.api.Assertions
-import org.camunda.bpm.engine.variable.type.PrimitiveValueType
-import org.camunda.bpm.engine.variable.value.*
+import org.cibseven.bpm.engine.variable.type.PrimitiveValueType
+import org.cibseven.bpm.engine.variable.value.*
 import org.junit.jupiter.api.Test
 
 /**

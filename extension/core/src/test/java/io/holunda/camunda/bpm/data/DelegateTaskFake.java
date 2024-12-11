@@ -1,13 +1,13 @@
 package io.holunda.camunda.bpm.data;
 
-import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.engine.ProcessEngineServices;
-import org.camunda.bpm.engine.delegate.DelegateCaseExecution;
-import org.camunda.bpm.engine.delegate.DelegateExecution;
-import org.camunda.bpm.engine.delegate.DelegateTask;
-import org.camunda.bpm.engine.task.IdentityLink;
-import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.cibseven.bpm.engine.ProcessEngine;
+import org.cibseven.bpm.engine.ProcessEngineServices;
+import org.cibseven.bpm.engine.delegate.DelegateCaseExecution;
+import org.cibseven.bpm.engine.delegate.DelegateExecution;
+import org.cibseven.bpm.engine.delegate.DelegateTask;
+import org.cibseven.bpm.engine.task.IdentityLink;
+import org.cibseven.bpm.model.bpmn.BpmnModelInstance;
+import org.cibseven.bpm.model.bpmn.instance.UserTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +25,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static org.camunda.bpm.engine.task.IdentityLinkType.CANDIDATE;
+import static org.cibseven.bpm.engine.task.IdentityLinkType.CANDIDATE;
 
 /**
  * Copy of the fake to avoid dependency to camunda-platform-7-mockito (to avoid cyclic dependency graph).

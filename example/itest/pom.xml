@@ -37,20 +37,43 @@
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
+      <groupId>org.cibseven.bpm.springboot</groupId>
+      <artifactId>cibseven-bpm-spring-boot-starter-rest</artifactId>
+      <version>${cibseven.version}</version>
     </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-plugin-spin</artifactId>
+      <version>${spin.version}</version>
     </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-engine-plugin-spin</artifactId>
+      <version>${cibseven.version}</version>
+    </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.spin</groupId>
       <artifactId>camunda-spin-core</artifactId>
     </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-core</artifactId>
+      <version>${cibseven.version}</version>
+    </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.spin</groupId>
       <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+    </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>
+      <version>${cibseven.version}</version>
     </dependency>
 
     <!-- Jackson -->

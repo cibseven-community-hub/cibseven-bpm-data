@@ -18,12 +18,14 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <version.java>${java.version}</version.java>
 
-    <camunda.version.ee>7.22.0</camunda.version.ee>
-    <camunda.version.ce>7.22.0</camunda.version.ce>
+<!--    <camunda.version.ee>7.22.0</camunda.version.ee>-->
+<!--    <camunda.version.ce>7.22.0</camunda.version.ce>-->
+    <cibseven.version>1.1.0</cibseven.version>
 
     <spring-boot.version>3.4.2</spring-boot.version>
     <spin.version>7.22.0</spin.version>
-    <camunda-assert.version>${camunda.version.ce}</camunda-assert.version>
+<!--    <camunda-assert.version>${camunda.version.ce}</camunda-assert.version>-->
+    <camunda-assert.version>${cibseven.version}</camunda-assert.version>
 
     <kotlin.version>2.1.10</kotlin.version>
     <jgiven.version>2.0.1</jgiven.version>
@@ -69,6 +71,7 @@
         <version>${kotlin-logging.version}</version>
       </dependency>
 
+<!--
       <dependency>
         <groupId>org.camunda.bpm</groupId>
         <artifactId>camunda-bom</artifactId>
@@ -76,6 +79,7 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+-->
       <dependency>
         <groupId>org.camunda.spin</groupId>
         <artifactId>camunda-spin-bom</artifactId>
@@ -83,10 +87,18 @@
         <type>pom</type>
         <version>${spin.version}</version>
       </dependency>
+<!--
       <dependency>
         <groupId>org.camunda.bpm.springboot</groupId>
         <artifactId>camunda-bpm-spring-boot-starter-test</artifactId>
         <version>${camunda.version.ce}</version>
+        <scope>test</scope>
+      </dependency>
+-->
+      <dependency>
+        <groupId>org.cibseven.bpm.springboot</groupId>
+        <artifactId>cibseven-bpm-spring-boot-starter-test</artifactId>
+        <version>${cibseven.version}</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -522,6 +534,7 @@
     CE stands for Community Edition
     EE stands for Enterprise Edition
   -->
+<!--
     <profile>
       <id>camunda-ce</id>
       <activation>
@@ -542,6 +555,8 @@
         </dependencies>
       </dependencyManagement>
     </profile>
+-->
+<!--
     <profile>
       <id>camunda-ee</id>
       <activation>
@@ -569,6 +584,7 @@
         </dependencies>
       </dependencyManagement>
     </profile>
+-->
 
     <profile>
       <id>itest</id>

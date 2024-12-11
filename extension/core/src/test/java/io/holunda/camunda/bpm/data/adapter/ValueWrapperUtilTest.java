@@ -7,16 +7,16 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.UUID;
 
-import org.camunda.bpm.engine.variable.type.PrimitiveValueType;
-import org.camunda.bpm.engine.variable.value.BooleanValue;
-import org.camunda.bpm.engine.variable.value.DateValue;
-import org.camunda.bpm.engine.variable.value.DoubleValue;
-import org.camunda.bpm.engine.variable.value.IntegerValue;
-import org.camunda.bpm.engine.variable.value.LongValue;
-import org.camunda.bpm.engine.variable.value.ObjectValue;
-import org.camunda.bpm.engine.variable.value.ShortValue;
-import org.camunda.bpm.engine.variable.value.StringValue;
-import org.camunda.bpm.engine.variable.value.TypedValue;
+import org.cibseven.bpm.engine.variable.type.PrimitiveValueType;
+import org.cibseven.bpm.engine.variable.value.BooleanValue;
+import org.cibseven.bpm.engine.variable.value.DateValue;
+import org.cibseven.bpm.engine.variable.value.DoubleValue;
+import org.cibseven.bpm.engine.variable.value.IntegerValue;
+import org.cibseven.bpm.engine.variable.value.LongValue;
+import org.cibseven.bpm.engine.variable.value.ObjectValue;
+import org.cibseven.bpm.engine.variable.value.ShortValue;
+import org.cibseven.bpm.engine.variable.value.StringValue;
+import org.cibseven.bpm.engine.variable.value.TypedValue;
 import org.junit.jupiter.api.Test;
 
 public class ValueWrapperUtilTest {

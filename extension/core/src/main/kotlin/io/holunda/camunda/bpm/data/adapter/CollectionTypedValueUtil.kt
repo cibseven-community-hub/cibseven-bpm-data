@@ -4,8 +4,8 @@ import com.fasterxml.jackson.core.JsonProcessingException
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.type.CollectionType
 import com.fasterxml.jackson.databind.type.MapType
-import org.camunda.bpm.engine.variable.impl.value.ObjectValueImpl
-import org.camunda.bpm.engine.variable.value.TypedValue
+import org.cibseven.bpm.engine.variable.impl.value.ObjectValueImpl
+import org.cibseven.bpm.engine.variable.value.TypedValue
 
 /**
  * Helper class to read values from collections.

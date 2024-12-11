@@ -25,26 +25,47 @@
     <dependency>
       <groupId>io.holunda.camunda-api</groupId>
       <artifactId>camunda-bpm-engine-api</artifactId>
-      <version>7.22.0</version>
+      <version>7.22.1-SNAPSHOT</version>
     </dependency>
 
 
+<!--
     <dependency>
       <groupId>org.camunda.commons</groupId>
       <artifactId>camunda-commons-typed-values</artifactId>
+    </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.commons</groupId>
+      <artifactId>cibseven-commons-typed-values</artifactId>
+      <version>${cibseven.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.spin</groupId>
       <artifactId>camunda-spin-core</artifactId>
     </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-core</artifactId>
+      <version>${cibseven.version}</version>
+    </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.spin</groupId>
       <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+    </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>
+      <version>${cibseven.version}</version>
     </dependency>
 
     <!-- Jackson -->
@@ -84,6 +105,12 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.cibseven.commons</groupId>
+      <artifactId>cibseven-commons-typed-values</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 

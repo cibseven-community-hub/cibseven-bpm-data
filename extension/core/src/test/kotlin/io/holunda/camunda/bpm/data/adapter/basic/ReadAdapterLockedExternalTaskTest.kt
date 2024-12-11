@@ -2,8 +2,8 @@ package io.holunda.camunda.bpm.data.adapter.basic
 
 import io.holunda.camunda.bpm.data.CamundaBpmData
 import org.assertj.core.api.Assertions.assertThat
-import org.camunda.bpm.engine.externaltask.LockedExternalTask
-import org.camunda.bpm.engine.variable.VariableMap
+import org.cibseven.bpm.engine.externaltask.LockedExternalTask
+import org.cibseven.bpm.engine.variable.VariableMap
 import org.junit.jupiter.api.Test
 import java.util.*
 
@@ -41,6 +41,7 @@ data class LockedExternalTaskFake(
   private var topicName: String? = null,
   private var workerId: String? = null,
   private var lockExpirationTime: Date? = null,
+  private var createTime: Date? = null,
   private var processInstanceId: String? = null,
   private var executionId: String? = null,
   private var activityId: String? = null,
@@ -64,6 +65,8 @@ data class LockedExternalTaskFake(
   override fun getWorkerId() = workerId
 
   override fun getLockExpirationTime() = lockExpirationTime
+
+  override fun getCreateTime() = createTime
 
   override fun getProcessInstanceId() = processInstanceId
 

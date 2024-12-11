@@ -38,9 +38,17 @@
     </dependency>
 
     <!-- Engine -->
+<!--
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine</artifactId>
+      <scope>provided</scope>
+    </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-engine</artifactId>
+      <version>${cibseven.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -61,14 +69,30 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <scope>test</scope>
     </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-bpm-assert</artifactId>
       <scope>test</scope>
     </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-bpm-assert</artifactId>
+      <version>${cibseven.version}</version>
+      <scope>test</scope>
+    </dependency>
+<!--
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-bpm-junit5</artifactId>
+      <scope>test</scope>
+    </dependency>
+-->
+    <dependency>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-bpm-junit5</artifactId>
+      <version>${cibseven.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>

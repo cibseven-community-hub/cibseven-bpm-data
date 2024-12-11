@@ -2,8 +2,8 @@ package io.holunda.camunda.bpm.data.guard.integration
 
 import io.holunda.camunda.bpm.data.guard.VariablesGuard
 import io.holunda.camunda.bpm.data.guard.condition.VariableGuardCondition
-import org.camunda.bpm.engine.delegate.DelegateTask
-import org.camunda.bpm.engine.delegate.TaskListener
+import org.cibseven.bpm.engine.delegate.DelegateTask
+import org.cibseven.bpm.engine.delegate.TaskListener
 import org.slf4j.LoggerFactory
 
 /**

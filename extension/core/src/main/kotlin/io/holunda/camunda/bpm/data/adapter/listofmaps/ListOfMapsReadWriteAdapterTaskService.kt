@@ -1,6 +1,6 @@
 package io.holunda.camunda.bpm.data.adapter.listofmaps
 
-import org.camunda.bpm.engine.TaskService
+import org.cibseven.bpm.engine.TaskService
 import java.util.*
 
 /**
