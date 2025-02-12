@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.holunda.data.example</groupId>
-    <artifactId>camunda-bpm-data-example-parent</artifactId>
+    <groupId>org.cibseven.community.data.example</groupId>
+    <artifactId>cibseven-bpm-data-example-parent</artifactId>
     <version>1.6.2-SNAPSHOT</version>
   </parent>
 
-  <artifactId>camunda-bpm-data-example-java</artifactId>
+  <artifactId>cibseven-bpm-data-example-java</artifactId>
   <name>${project.artifactId}</name>
 
   <properties>
@@ -18,12 +18,13 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.holunda.data</groupId>
-      <artifactId>camunda-bpm-data</artifactId>
+      <groupId>org.cibseven.community.data</groupId>
+      <artifactId>cibseven-bpm-data</artifactId>
+      <version>${project.parent.version}</version>
     </dependency>
     <dependency>
-      <groupId>io.holunda.data.example</groupId>
-      <artifactId>camunda-bpm-data-spin-type-detector</artifactId>
+      <groupId>org.cibseven.community.data.example</groupId>
+      <artifactId>cibseven-bpm-data-spin-type-detector</artifactId>
       <version>${project.parent.version}</version>
     </dependency>
     <dependency>
@@ -51,35 +52,16 @@
       <artifactId>cibseven-bpm-spring-boot-starter-rest</artifactId>
       <version>${cibseven.version}</version>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-plugin-spin</artifactId>
-      <version>${spin.version}</version>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.bpm</groupId>
       <artifactId>cibseven-engine-plugin-spin</artifactId>
       <version>${cibseven.version}</version>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.spin</groupId>
       <artifactId>cibseven-spin-core</artifactId>
       <version>${cibseven.version}</version>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.spin</groupId>
       <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>
@@ -106,33 +88,17 @@
     </dependency>
 
     <!-- Testing -->
-<!--
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-assert</artifactId>
-      <scope>test</scope>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.bpm</groupId>
       <artifactId>cibseven-bpm-assert</artifactId>
       <version>${cibseven.version}</version>
       <scope>test</scope>
     </dependency>
-
-<!--
     <dependency>
-      <groupId>org.camunda.bpm.springboot</groupId>
-      <artifactId>camunda-bpm-spring-boot-starter-test</artifactId>
-      <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>org.junit.vintage</groupId>
-          <artifactId>junit-vintage-engine</artifactId>
-        </exclusion>
-      </exclusions>
+      <groupId>org.cibseven.bpm.springboot</groupId>
+      <artifactId>cibseven-bpm-spring-boot-starter-webapp</artifactId>
+      <version>${cibseven.version}</version>
     </dependency>
--->
     <dependency>
       <groupId>org.cibseven.bpm.springboot</groupId>
       <artifactId>cibseven-bpm-spring-boot-starter-test</artifactId>
@@ -150,13 +116,6 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-junit5</artifactId>
-      <scope>test</scope>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.bpm</groupId>
       <artifactId>cibseven-bpm-junit5</artifactId>
@@ -174,43 +133,4 @@
     </plugins>
   </build>
 
-  <profiles>
-    <profile>
-      <id>camunda-ce</id>
-      <activation>
-        <property>
-          <name>!camunda-ee</name>
-        </property>
-      </activation>
-      <dependencies>
-<!--
-        <dependency>
-          <groupId>org.camunda.bpm.springboot</groupId>
-          <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
-        </dependency>
--->
-        <dependency>
-          <groupId>org.cibseven.bpm.springboot</groupId>
-          <artifactId>cibseven-bpm-spring-boot-starter-webapp</artifactId>
-          <version>${cibseven.version}</version>
-        </dependency>
-      </dependencies>
-    </profile>
-<!--
-    <profile>
-      <id>camunda-ee</id>
-      <activation>
-        <property>
-          <name>camunda-ee</name>
-        </property>
-      </activation>
-      <dependencies>
-        <dependency>
-          <groupId>org.camunda.bpm.springboot</groupId>
-          <artifactId>camunda-bpm-spring-boot-starter-webapp-ee</artifactId>
-        </dependency>
-      </dependencies>
-    </profile>
--->
-  </profiles>
 </project>

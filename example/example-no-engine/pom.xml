@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.holunda.data.example</groupId>
-    <artifactId>camunda-bpm-data-example-parent</artifactId>
+    <groupId>org.cibseven.community.data.example</groupId>
+    <artifactId>cibseven-bpm-data-example-parent</artifactId>
     <version>1.6.2-SNAPSHOT</version>
   </parent>
 
-  <artifactId>camunda-bpm-data-example-no-engine</artifactId>
+  <artifactId>cibseven-bpm-data-example-no-engine</artifactId>
   <name>${project.artifactId}</name>
 
   <properties>
@@ -18,23 +18,17 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.holunda.data</groupId>
-      <artifactId>camunda-bpm-data</artifactId>
+      <groupId>org.cibseven.community.data</groupId>
+      <artifactId>cibseven-bpm-data</artifactId>
+      <version>${project.parent.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>io.holunda.camunda-api</groupId>
-      <artifactId>camunda-bpm-engine-api</artifactId>
+      <groupId>org.cibseven.community.cibseven-api</groupId>
+      <artifactId>cibseven-bpm-engine-api</artifactId>
       <version>7.22.1-SNAPSHOT</version>
     </dependency>
 
-
-<!--
-    <dependency>
-      <groupId>org.camunda.commons</groupId>
-      <artifactId>camunda-commons-typed-values</artifactId>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.commons</groupId>
       <artifactId>cibseven-commons-typed-values</artifactId>
@@ -45,23 +39,13 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
-    </dependency>
--->
+
     <dependency>
       <groupId>org.cibseven.spin</groupId>
       <artifactId>cibseven-spin-core</artifactId>
       <version>${cibseven.version}</version>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
-    </dependency>
--->
+
     <dependency>
       <groupId>org.cibseven.spin</groupId>
       <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>

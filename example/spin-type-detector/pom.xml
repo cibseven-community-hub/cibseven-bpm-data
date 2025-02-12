@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.holunda.data.example</groupId>
-    <artifactId>camunda-bpm-data-example-parent</artifactId>
+    <groupId>org.cibseven.community.data.example</groupId>
+    <artifactId>cibseven-bpm-data-example-parent</artifactId>
     <version>1.6.2-SNAPSHOT</version>
   </parent>
 
-  <artifactId>camunda-bpm-data-spin-type-detector</artifactId>
+  <artifactId>cibseven-bpm-data-spin-type-detector</artifactId>
   <name>${project.artifactId}</name>
   <packaging>jar</packaging>
 
@@ -19,12 +19,12 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -32,13 +32,6 @@
       <scope>test</scope>
     </dependency>
     <!-- Engine -->
-<!--
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
-      <scope>test</scope>
-    </dependency>
--->
     <dependency>
       <groupId>org.cibseven.bpm</groupId>
       <artifactId>cibseven-engine</artifactId>

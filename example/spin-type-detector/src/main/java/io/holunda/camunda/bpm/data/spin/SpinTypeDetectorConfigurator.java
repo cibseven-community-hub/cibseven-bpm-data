@@ -1,10 +1,10 @@
 package io.holunda.camunda.bpm.data.spin;
 
-import org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat;
-import org.camunda.spin.spi.DataFormatConfigurator;
+import org.cibseven.spin.impl.json.jackson.format.JacksonJsonDataFormat;
+import org.cibseven.spin.spi.DataFormatConfigurator;
 
 /**
- * Spin configurator referenced in META-INF/services/org.camunda.spin.spi.DataFormatConfigurator.
+ * Spin configurator referenced in META-INF/services/org.cibseven.spin.spi.DataFormatConfigurator.
  * Configures the {@link ErasedCollectionTypeDetector}.
  */
 public class SpinTypeDetectorConfigurator implements DataFormatConfigurator<JacksonJsonDataFormat> {

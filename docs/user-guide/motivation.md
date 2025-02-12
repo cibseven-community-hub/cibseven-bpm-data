@@ -1,6 +1,6 @@
 ## Typed access to process variables
 
-Camunda BPM engine provide Java API to access the process variables.
+CIB seven BPM engine provide Java API to access the process variables.
 This consists of:
 
 * `RuntimeService` methods
@@ -31,7 +31,7 @@ More details can be found in:
 ## Variable guards
 
 Process automation often follows strict rules defined by the business. On the other hand, the process execution itself
-defines rules in terms of pre- and post-conditions on the process payload (stored as process variables in Camunda BPM).
+defines rules in terms of pre- and post-conditions on the process payload (stored as process variables in CIB seven BPM).
 Rising complexity of the implemented processes makes the compliance to those rules challenging. In order to fulfill the
 conditions on process variables during the execution of business processes, a concept of `VariableGuard` is provided by
 the library. A guard consists of a set of `VariableConditions` and can be evaluated in all contexts, the variables
@@ -43,7 +43,7 @@ Here is an example of a task listener defining a `VariablesGuard` to test that t
 
 ``` java
 
-import static io.holunda.camunda.bpm.data.guard.CamundaBpmDataGuards.exists;
+import static org.cibseven.community.cibseven.bpm.data.guard.CamundaBpmDataGuards.exists;
 
 @Component
 class MyGuardListener extends DefaultGuardTaskListener {

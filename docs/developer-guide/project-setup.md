@@ -5,8 +5,8 @@ If you are interested in developing and building the project please follow the f
 To check out sources of the project, please execute from your command line:
 
 ```sh
-git clone https://github.com/holunda-io/camunda-bpm-data.git
-cd camunda-bpm-data
+git clone https://github.com/cibseven-community-hub/cibseven-bpm-data.git
+cd cibseven-bpm-data
 ```
 
 We are using gitflow in our git SCM. That means that you should start from `develop` branch, create a `feature/<name>` out of it and once it
@@ -31,12 +31,6 @@ The default build command above will NOT run `failsafe` Maven plugin executing t
 ```
 
 ### Project build modes and profiles
-
-#### Camunda Version
-
-You can choose the used Camunda version by specifying the profile `camunda-ee` or `camunda-ce`. The default version is a Community Edition.
-Specify `-Pcamunda-ee` to switch to Camunda Enterprise edition. This will require a valid Camunda license. You can put it into a
-file `~/.camunda/license.txt` and it will be detected automatically.
 
 #### Examples
 
@@ -74,8 +68,8 @@ By default, the sources and javadoc API documentation are not generated from the
 
 To start applications, either use your IDE and create run configuration for the classes:
 
-* `io.holunda.camunda.bpm.data.example.CamundaBpmDataProcessApplication`
-* `io.holunda.camunda.bpm.data.example.kotlin.CamundaBpmDataKotlinExampleApplication`
+* `org.cibseven.community.cibseven.bpm.data.example.CamundaBpmDataProcessApplication`
+* `org.cibseven.community.cibseven.bpm.data.example.kotlin.CamundaBpmDataKotlinExampleApplication`
 
 Alternatively, you can run them from the command line:
 
@@ -96,8 +90,8 @@ Release management has been set up for use of Sonatype Nexus (= Maven Central).
 
 Currently, the following modules are released to OSS Maven Central:
 
-* camunda-bpm-data-parent
-* camunda-bpm-data
+* cibseven-bpm-data-parent
+* cibseven-bpm-data
 
 #### Trigger new release
 

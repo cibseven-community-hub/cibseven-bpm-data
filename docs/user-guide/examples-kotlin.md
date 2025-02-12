@@ -97,7 +97,7 @@ class JavaDelegates {
 ## Fluent API to remove several variables
 
 ``` kotlin
-import io.holunda.camunda.bpm.data.remove
+import org.cibseven.community.cibseven.bpm.data.remove
 
 @Configuration
 class JavaDelegates {
@@ -262,4 +262,4 @@ class MyDocument(@field:Email val email: String)
 ## Example project
 
 For more examples, please check out the Kotlin Example project, at
-[GitHub](https://github.com/holunda-io/camunda-bpm-data/tree/develop/example/example-kotlin).
+[GitHub](https://github.com/cibseven-community-hub/cibseven-bpm-data/tree/develop/example/example-kotlin).

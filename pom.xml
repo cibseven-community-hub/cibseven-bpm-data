@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.holunda.data</groupId>
-  <artifactId>camunda-bpm-data-parent</artifactId>
+  <groupId>org.cibseven.community.data</groupId>
+  <artifactId>cibseven-bpm-data-parent</artifactId>
   <version>1.6.2-SNAPSHOT</version>
   <name>${project.artifactId}</name>
-  <description>Camunda BPM Data</description>
-  <url>https://github.com/holunda-io/camunda-bpm-data/</url>
+  <description>CIB seven BPM Data</description>
+  <url>https://github.com/cibseven-community-hub/cibseven-bpm-data/</url>
   <packaging>pom</packaging>
 
   <properties>
@@ -18,14 +18,11 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <version.java>${java.version}</version.java>
 
-<!--    <camunda.version.ee>7.22.0</camunda.version.ee>-->
-<!--    <camunda.version.ce>7.22.0</camunda.version.ce>-->
     <cibseven.version>1.1.0</cibseven.version>
 
     <spring-boot.version>3.4.2</spring-boot.version>
-    <spin.version>7.22.0</spin.version>
-<!--    <camunda-assert.version>${camunda.version.ce}</camunda-assert.version>-->
-    <camunda-assert.version>${cibseven.version}</camunda-assert.version>
+    <spin.version>${cibseven.version}</spin.version>
+    <cibseven-assert.version>${cibseven.version}</cibseven-assert.version>
 
     <kotlin.version>2.1.10</kotlin.version>
     <jgiven.version>2.0.1</jgiven.version>
@@ -73,28 +70,20 @@
 
 <!--
       <dependency>
-        <groupId>org.camunda.bpm</groupId>
-        <artifactId>camunda-bom</artifactId>
-        <version>${camunda.version}</version>
+        <groupId>org.cibseven.bpm</groupId>
+        <artifactId>cibseven-bom</artifactId>
+        <version>${cibseven.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
 -->
       <dependency>
-        <groupId>org.camunda.spin</groupId>
-        <artifactId>camunda-spin-bom</artifactId>
+        <groupId>org.cibseven.spin</groupId>
+        <artifactId>cibseven-spin-bom</artifactId>
         <scope>import</scope>
         <type>pom</type>
         <version>${spin.version}</version>
       </dependency>
-<!--
-      <dependency>
-        <groupId>org.camunda.bpm.springboot</groupId>
-        <artifactId>camunda-bpm-spring-boot-starter-test</artifactId>
-        <version>${camunda.version.ce}</version>
-        <scope>test</scope>
-      </dependency>
--->
       <dependency>
         <groupId>org.cibseven.bpm.springboot</groupId>
         <artifactId>cibseven-bpm-spring-boot-starter-test</artifactId>
@@ -529,63 +518,6 @@
   </build>
 
   <profiles>
-    <!--
-    Profile for selecting the Camunda BPM Engine version.
-    CE stands for Community Edition
-    EE stands for Enterprise Edition
-  -->
-<!--
-    <profile>
-      <id>camunda-ce</id>
-      <activation>
-        <property>
-          <name>!camunda-ee</name>
-        </property>
-      </activation>
-      <properties>
-        <camunda.version>7.20.0</camunda.version>
-      </properties>
-      <dependencyManagement>
-        <dependencies>
-          <dependency>
-            <groupId>org.camunda.bpm.springboot</groupId>
-            <artifactId>camunda-bpm-spring-boot-starter-webapp</artifactId>
-            <version>${camunda.version.ce}</version>
-          </dependency>
-        </dependencies>
-      </dependencyManagement>
-    </profile>
--->
-<!--
-    <profile>
-      <id>camunda-ee</id>
-      <activation>
-        <property>
-          <name>camunda-ee</name>
-        </property>
-      </activation>
-      <properties>
-        <camunda.version>${camunda.version.ee}</camunda.version>
-      </properties>
-      <repositories>
-        <repository>
-          <id>camunda-bpm-ee</id>
-          <name>camunda-bpm-ee</name>
-          <url>https://app.camunda.com/nexus/content/repositories/camunda-bpm-ee</url>
-        </repository>
-      </repositories>
-      <dependencyManagement>
-        <dependencies>
-          <dependency>
-            <groupId>org.camunda.bpm.springboot</groupId>
-            <artifactId>camunda-bpm-spring-boot-starter-webapp-ee</artifactId>
-            <version>${camunda.version.ee}</version>
-          </dependency>
-        </dependencies>
-      </dependencyManagement>
-    </profile>
--->
-
     <profile>
       <id>itest</id>
       <activation>
@@ -664,16 +596,16 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:holunda-io/camunda-bpm-data.git</connection>
-    <url>scm:git:git@github.com:holunda-io/camunda-bpm-data.git</url>
-    <developerConnection>scm:git:git@github.com:holunda-io/camunda-bpm-data.git</developerConnection>
+    <connection>scm:git:git@github.com:cibseven-community-hub/cibseven-bpm-data.git</connection>
+    <url>scm:git:git@github.com:cibseven-community-hub/cibseven-bpm-data.git</url>
+    <developerConnection>scm:git:git@github.com:cibseven-community-hub/cibseven-bpm-data.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
     <site>
       <id>README</id>
-      <url>https://github.com/holunda-io/camunda-bpm-data</url>
+      <url>https://github.com/cibseven-community-hub/cibseven-bpm-data</url>
     </site>
     <snapshotRepository>
       <id>ossrh</id>

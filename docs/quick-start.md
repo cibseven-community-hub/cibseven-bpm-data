@@ -7,21 +7,21 @@ In Apache Maven add to your `pom.xml`:
 ```xml
 <dependency>
   <groupId>io.holunda.data</groupId>
-  <artifactId>camunda-bpm-data</artifactId>
-  <version>${camunda-bpm-data.version}</version>
+  <artifactId>cibseven-bpm-data</artifactId>
+  <version>${cibseven-bpm-data.version}</version>
 </dependency>
 ```
 
 For Gradle Kotlin DSL add to your `build.gradle.kts`:
 
 ```kotlin
-implementation("io.holunda.data:camunda-bpm-data:${camunda-bpm-data.version}")
+implementation("org.cibseven.community.data:cibseven-bpm-data:${cibseven-bpm-data.version}")
 ```
 
 For Gradle Groovy DSL add to your `build.gradle`:
 
 ```groovy
-implementation 'io.holunda.data:camunda-bpm-data:${camunda-bpm-data.version}'
+implementation 'org.cibseven.community.data:cibseven-bpm-data:${cibseven-bpm-data.version}'
 ```
 
 ## Declare process variable factories
@@ -33,8 +33,8 @@ Here is an example in Java:
 
 ```java
 
-import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import static io.holunda.camunda.bpm.data.CamundaBpmData.*;
+import org.cibseven.community.bpm.data.factory.VariableFactory;
+import static iorg.cibseven.community.cibseven.bpm.data.CamundaBpmData.*;
 
 public class OrderApproval {
   public static final VariableFactory<String> ORDER_ID = stringVariable("orderId");

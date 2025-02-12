@@ -5,12 +5,12 @@ There are several ways in which you may contribute to this project.
 
 ### Found a bug or missing feature?
 
-Please [file an issue](https://github.com/holuda-io/camunda-bpm-data/issues) in our
+Please [file an issue](https://github.com/cibseven-community-hub/cibseven-bpm-data/issues) in our
 issue tracking system.
 
 ### Submit a Pull Request
 
-If you found a solution to an [open issue](https://github.com/holuda-io/camunda-bpm-data/issues)
+If you found a solution to an [open issue](https://github.com/cibseven-community-hub/cibseven-bpm-data/issues)
 and implemented it, we would be happy to add your contribution in the code base. For doing so,
 please create a pull request. Prior to that, please make sure you
 
