@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.cibseven.community.data.example</groupId>
     <artifactId>cibseven-bpm-data-example-parent</artifactId>
-    <version>1.6.2-SNAPSHOT</version>
+    <version>1.0.0</version>
   </parent>
 
   <artifactId>cibseven-bpm-data-example-java</artifactId>

@@ -36,7 +36,7 @@ If you just want to start using the library, put the following dependency into y
 <dependency>
   <groupId>org.cibseven.community.data</groupId>
   <artifactId>cibseven-bpm-data</artifactId>
-  <version>1.5.0</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
@@ -190,6 +190,12 @@ guide or have a look to our primary documentation: [User Guide](https://www.holu
 
 We prepared some typical usage scenarios and implemented two example projects in Java and Kotlin.
 See our [Examples](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/examples.html) section for usage and configuration.
+
+## Versions
+
+io.holunda.data:camunda-bpm-data | org.cibseven.community.data:cibseven-bpm-data
+--- | --- 
+1.6.1 | 1.0.0
 
 ## License
 
