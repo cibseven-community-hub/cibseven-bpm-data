@@ -55,8 +55,8 @@ implementation 'org.cibseven.community.data:cibseven-bpm-data:1.5.0'
 Now your setup is completed, and you can declare your variables like this:
 
 ``` java
-import org.cibseven.community.cibseven.bpm.data.factory.VariableFactory;
-import static org.cibseven.community.cibseven.bpm.data.CamundaBpmData.*;
+import org.cibseven.community.bpm.data.factory.VariableFactory;
+import static org.cibseven.community.bpm.data.CamundaBpmData.*;
 
 public class OrderApproval {
   public static final VariableFactory<String> ORDER_ID = stringVariable("orderId");

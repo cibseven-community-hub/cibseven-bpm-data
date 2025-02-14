@@ -43,7 +43,7 @@ Here is an example of a task listener defining a `VariablesGuard` to test that t
 
 ``` java
 
-import static org.cibseven.community.cibseven.bpm.data.guard.CamundaBpmDataGuards.exists;
+import static org.cibseven.community.bpm.data.guard.CamundaBpmDataGuards.exists;
 
 @Component
 class MyGuardListener extends DefaultGuardTaskListener {

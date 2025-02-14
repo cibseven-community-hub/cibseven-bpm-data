@@ -97,7 +97,7 @@ class JavaDelegates {
 ## Fluent API to remove several variables
 
 ``` kotlin
-import org.cibseven.community.cibseven.bpm.data.remove
+import org.cibseven.community.bpm.data.remove
 
 @Configuration
 class JavaDelegates {

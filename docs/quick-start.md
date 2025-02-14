@@ -34,7 +34,7 @@ Here is an example in Java:
 ```java
 
 import org.cibseven.community.bpm.data.factory.VariableFactory;
-import static org.cibseven.community.cibseven.bpm.data.CamundaBpmData.*;
+import static org.cibseven.community.bpm.data.CamundaBpmData.*;
 
 public class OrderApproval {
   public static final VariableFactory<String> ORDER_ID = stringVariable("orderId");

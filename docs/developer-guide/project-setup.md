@@ -68,8 +68,8 @@ By default, the sources and javadoc API documentation are not generated from the
 
 To start applications, either use your IDE and create run configuration for the classes:
 
-* `org.cibseven.community.cibseven.bpm.data.example.CamundaBpmDataProcessApplication`
-* `org.cibseven.community.cibseven.bpm.data.example.kotlin.CamundaBpmDataKotlinExampleApplication`
+* `org.cibseven.community.bpm.data.example.CamundaBpmDataProcessApplication`
+* `org.cibseven.community.bpm.data.example.kotlin.CamundaBpmDataKotlinExampleApplication`
 
 Alternatively, you can run them from the command line:
 
