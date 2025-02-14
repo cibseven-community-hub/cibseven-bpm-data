@@ -6,7 +6,7 @@ In Apache Maven add to your `pom.xml`:
 
 ```xml
 <dependency>
-  <groupId>io.holunda.data</groupId>
+  <groupId>org.cibseven.community.data</groupId>
   <artifactId>cibseven-bpm-data</artifactId>
   <version>${cibseven-bpm-data.version}</version>
 </dependency>
@@ -34,7 +34,7 @@ Here is an example in Java:
 ```java
 
 import org.cibseven.community.bpm.data.factory.VariableFactory;
-import static iorg.cibseven.community.cibseven.bpm.data.CamundaBpmData.*;
+import static org.cibseven.community.cibseven.bpm.data.CamundaBpmData.*;
 
 public class OrderApproval {
   public static final VariableFactory<String> ORDER_ID = stringVariable("orderId");

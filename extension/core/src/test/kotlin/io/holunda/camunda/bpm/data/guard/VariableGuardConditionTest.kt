@@ -1,8 +1,8 @@
-package io.holunda.camunda.bpm.data.guard
+package org.cibseven.community.bpm.data.guard
 
-import io.holunda.camunda.bpm.data.CamundaBpmData.customVariable
-import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
-import io.holunda.camunda.bpm.data.guard.condition.*
+import org.cibseven.community.bpm.data.CamundaBpmData.customVariable
+import org.cibseven.community.bpm.data.CamundaBpmData.stringVariable
+import org.cibseven.community.bpm.data.guard.condition.*
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.variable.Variables.createVariables
 import org.junit.jupiter.api.Test

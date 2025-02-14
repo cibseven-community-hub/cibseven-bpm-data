@@ -1,11 +1,11 @@
-package io.holunda.camunda.bpm.data.acl
+package org.cibseven.community.bpm.data.acl
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
-import io.holunda.camunda.bpm.data.acl.apply.GlobalScopeReplaceStrategy
-import io.holunda.camunda.bpm.data.acl.apply.LocalScopeReplaceStrategy
-import io.holunda.camunda.bpm.data.acl.transform.IdentityVariableMapTransformer
-import io.holunda.camunda.bpm.data.guard.CamundaBpmDataGuards.exists
-import io.holunda.camunda.bpm.data.guard.VariablesGuard
+import org.cibseven.community.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.acl.apply.GlobalScopeReplaceStrategy
+import org.cibseven.community.bpm.data.acl.apply.LocalScopeReplaceStrategy
+import org.cibseven.community.bpm.data.acl.transform.IdentityVariableMapTransformer
+import org.cibseven.community.bpm.data.guard.CamundaBpmDataGuards.exists
+import org.cibseven.community.bpm.data.guard.VariablesGuard
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.variable.VariableMap
 import org.junit.jupiter.api.Test

@@ -1,4 +1,4 @@
-package io.holunda.camunda.bpm.data.example.kotlin.process
+package org.cibseven.community.bpm.data.example.kotlin.process
 
 import org.cibseven.bpm.engine.runtime.ProcessInstance
 

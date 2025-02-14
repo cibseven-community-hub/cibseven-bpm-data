@@ -1,1 +1,1 @@
-io.holunda.camunda.bpm.data.spin.SpinTypeDetectorConfigurator
+org.cibseven.community.bpm.data.spin.SpinTypeDetectorConfigurator

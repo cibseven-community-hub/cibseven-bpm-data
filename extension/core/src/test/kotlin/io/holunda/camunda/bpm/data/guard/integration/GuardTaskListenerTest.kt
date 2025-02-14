@@ -1,10 +1,10 @@
-package io.holunda.camunda.bpm.data.guard.integration
+package org.cibseven.community.bpm.data.guard.integration
 
-import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
-import io.holunda.camunda.bpm.data.DelegateTaskFake
-import io.holunda.camunda.bpm.data.guard.VariablesGuard
-import io.holunda.camunda.bpm.data.guard.condition.exists
-import io.holunda.camunda.bpm.data.guard.condition.hasValue
+import org.cibseven.community.bpm.data.CamundaBpmData.stringVariable
+import org.cibseven.community.bpm.data.DelegateTaskFake
+import org.cibseven.community.bpm.data.guard.VariablesGuard
+import org.cibseven.community.bpm.data.guard.condition.exists
+import org.cibseven.community.bpm.data.guard.condition.hasValue
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows

@@ -1,4 +1,4 @@
-package io.holunda.camunda.bpm.data.example.kotlin.domain
+package org.cibseven.community.bpm.data.example.kotlin.domain
 
 import org.springframework.stereotype.Component
 import java.math.BigDecimal

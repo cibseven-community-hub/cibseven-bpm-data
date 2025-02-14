@@ -1,4 +1,4 @@
-package io.holunda.camunda.bpm.data.spin
+package org.cibseven.community.bpm.data.spin
 
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.module.kotlin.KotlinModule

@@ -1,6 +1,6 @@
-package io.holunda.camunda.bpm.data.acl.transform
+package org.cibseven.community.bpm.data.acl.transform
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.CamundaBpmData
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 

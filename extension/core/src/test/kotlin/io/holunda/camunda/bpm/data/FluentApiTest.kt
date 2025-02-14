@@ -1,13 +1,13 @@
-package io.holunda.camunda.bpm.data
+package org.cibseven.community.bpm.data
 
 import org.mockito.kotlin.mock
-import io.holunda.camunda.bpm.data.CamundaBpmDataKotlin.stringVariable
-import io.holunda.camunda.bpm.data.reader.CaseServiceVariableReader
-import io.holunda.camunda.bpm.data.reader.RuntimeServiceVariableReader
-import io.holunda.camunda.bpm.data.reader.TaskServiceVariableReader
-import io.holunda.camunda.bpm.data.writer.CaseServiceVariableWriter
-import io.holunda.camunda.bpm.data.writer.RuntimeServiceVariableWriter
-import io.holunda.camunda.bpm.data.writer.TaskServiceVariableWriter
+import org.cibseven.community.bpm.data.CamundaBpmDataKotlin.stringVariable
+import org.cibseven.community.bpm.data.reader.CaseServiceVariableReader
+import org.cibseven.community.bpm.data.reader.RuntimeServiceVariableReader
+import org.cibseven.community.bpm.data.reader.TaskServiceVariableReader
+import org.cibseven.community.bpm.data.writer.CaseServiceVariableWriter
+import org.cibseven.community.bpm.data.writer.RuntimeServiceVariableWriter
+import org.cibseven.community.bpm.data.writer.TaskServiceVariableWriter
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.CaseService
 import org.cibseven.bpm.engine.RuntimeService

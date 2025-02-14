@@ -1,4 +1,4 @@
-package io.holunda.camunda.bpm.data.adapter
+package org.cibseven.community.bpm.data.adapter
 
 import org.assertj.core.api.Assertions
 import org.cibseven.bpm.engine.variable.type.PrimitiveValueType
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test
 /**
  * Check value wrapper util for Kotlin classes.
  *
- * @see [io.holunda.camunda.bpm.data.adapter.ValueWrapperUtilTest]
+ * @see [org.cibseven.community.bpm.data.adapter.ValueWrapperUtilTest]
  */
 class KotlinValueWrapperUtilTest {
   @Test

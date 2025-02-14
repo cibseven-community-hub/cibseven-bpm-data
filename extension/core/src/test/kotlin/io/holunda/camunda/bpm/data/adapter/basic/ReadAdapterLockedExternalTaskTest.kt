@@ -1,6 +1,6 @@
-package io.holunda.camunda.bpm.data.adapter.basic
+package org.cibseven.community.bpm.data.adapter.basic
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.CamundaBpmData
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.externaltask.LockedExternalTask
 import org.cibseven.bpm.engine.variable.VariableMap

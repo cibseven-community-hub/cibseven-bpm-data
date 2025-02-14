@@ -1,4 +1,4 @@
-package io.holunda.camunda.bpm.data.example.noengine
+package org.cibseven.community.bpm.data.example.noengine
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test

@@ -1,7 +1,7 @@
-package io.holunda.camunda.bpm.data.reader
+package org.cibseven.community.bpm.data.reader
 
-import io.holunda.camunda.bpm.data.CamundaBpmData.reader
-import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
+import org.cibseven.community.bpm.data.CamundaBpmData.reader
+import org.cibseven.community.bpm.data.CamundaBpmData.stringVariable
 import org.assertj.core.api.Assertions
 import org.cibseven.bpm.engine.CaseService
 import org.junit.jupiter.api.AfterEach

@@ -1,10 +1,10 @@
-package io.holunda.camunda.bpm.data.acl
+package org.cibseven.community.bpm.data.acl
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
-import io.holunda.camunda.bpm.data.CamundaBpmDataKotlin
-import io.holunda.camunda.bpm.data.acl.transform.VariableMapTransformer
-import io.holunda.camunda.bpm.data.guard.VariablesGuard
-import io.holunda.camunda.bpm.data.guard.condition.*
+import org.cibseven.community.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.CamundaBpmDataKotlin
+import org.cibseven.community.bpm.data.acl.transform.VariableMapTransformer
+import org.cibseven.community.bpm.data.guard.VariablesGuard
+import org.cibseven.community.bpm.data.guard.condition.*
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.ProcessEngineConfiguration
 import org.cibseven.bpm.engine.RuntimeService

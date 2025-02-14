@@ -1,10 +1,10 @@
-package io.holunda.camunda.bpm.data
+package org.cibseven.community.bpm.data
 
-import io.holunda.camunda.bpm.data.CamundaBpmDataKotlin.mapVariable
-import io.holunda.camunda.bpm.data.CamundaBpmDataKotlin.mapVariableNotNullable
-import io.holunda.camunda.bpm.data.NullableMapTest.TestVariables.NO_NULL_MAP
-import io.holunda.camunda.bpm.data.NullableMapTest.TestVariables.NULL_MAP
-import io.holunda.camunda.bpm.data.factory.VariableFactory
+import org.cibseven.community.bpm.data.CamundaBpmDataKotlin.mapVariable
+import org.cibseven.community.bpm.data.CamundaBpmDataKotlin.mapVariableNotNullable
+import org.cibseven.community.bpm.data.NullableMapTest.TestVariables.NO_NULL_MAP
+import org.cibseven.community.bpm.data.NullableMapTest.TestVariables.NULL_MAP
+import org.cibseven.community.bpm.data.factory.VariableFactory
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.variable.Variables.createVariables
 import org.junit.jupiter.api.Test

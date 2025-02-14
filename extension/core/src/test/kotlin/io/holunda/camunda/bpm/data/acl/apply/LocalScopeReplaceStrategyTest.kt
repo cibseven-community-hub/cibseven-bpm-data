@@ -1,7 +1,7 @@
-package io.holunda.camunda.bpm.data.acl.apply
+package org.cibseven.community.bpm.data.acl.apply
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
-import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
+import org.cibseven.community.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.CamundaBpmData.stringVariable
 import org.assertj.core.api.Assertions
 import org.cibseven.bpm.engine.delegate.DelegateExecution
 import org.junit.jupiter.api.Test

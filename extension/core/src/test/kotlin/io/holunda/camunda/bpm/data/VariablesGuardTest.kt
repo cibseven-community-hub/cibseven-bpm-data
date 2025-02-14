@@ -1,13 +1,13 @@
-package io.holunda.camunda.bpm.data
+package org.cibseven.community.bpm.data
 
-import io.holunda.camunda.bpm.data.CamundaBpmData.stringVariable
-import io.holunda.camunda.bpm.data.guard.CamundaBpmDataGuards.exists
-import io.holunda.camunda.bpm.data.guard.CamundaBpmDataGuards.hasOneOfValues
-import io.holunda.camunda.bpm.data.guard.CamundaBpmDataGuards.hasValue
-import io.holunda.camunda.bpm.data.guard.GuardViolation
-import io.holunda.camunda.bpm.data.guard.VariablesGuard
-import io.holunda.camunda.bpm.data.guard.VariablesGuard.Companion.ALL
-import io.holunda.camunda.bpm.data.guard.VariablesGuard.Companion.ONE_OF
+import org.cibseven.community.bpm.data.CamundaBpmData.stringVariable
+import org.cibseven.community.bpm.data.guard.CamundaBpmDataGuards.exists
+import org.cibseven.community.bpm.data.guard.CamundaBpmDataGuards.hasOneOfValues
+import org.cibseven.community.bpm.data.guard.CamundaBpmDataGuards.hasValue
+import org.cibseven.community.bpm.data.guard.GuardViolation
+import org.cibseven.community.bpm.data.guard.VariablesGuard
+import org.cibseven.community.bpm.data.guard.VariablesGuard.Companion.ALL
+import org.cibseven.community.bpm.data.guard.VariablesGuard.Companion.ONE_OF
 import org.assertj.core.api.Assertions.assertThat
 import org.cibseven.bpm.engine.variable.Variables
 import org.junit.jupiter.api.Test

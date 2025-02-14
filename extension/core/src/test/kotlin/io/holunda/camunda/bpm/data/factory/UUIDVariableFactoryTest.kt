@@ -1,6 +1,6 @@
-package io.holunda.camunda.bpm.data.factory
+package org.cibseven.community.bpm.data.factory
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.CamundaBpmData
 import org.assertj.core.api.Assertions
 import org.cibseven.bpm.engine.variable.Variables
 import org.junit.jupiter.api.Test

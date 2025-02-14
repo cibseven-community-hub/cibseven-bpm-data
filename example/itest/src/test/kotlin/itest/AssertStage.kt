@@ -1,8 +1,8 @@
-package io.holunda.camunda.bpm.data.itest
+package org.cibseven.community.bpm.data.itest
 
 import com.tngtech.jgiven.Stage
 import com.tngtech.jgiven.integration.spring.JGivenStage
-import io.holunda.camunda.bpm.data.factory.VariableFactory
+import org.cibseven.community.bpm.data.factory.VariableFactory
 import org.assertj.core.api.Assertions
 import java.util.*
 

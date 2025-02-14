@@ -1,8 +1,8 @@
-package io.holunda.camunda.bpm.data.guard.integration
+package org.cibseven.community.bpm.data.guard.integration
 
-import io.holunda.camunda.bpm.data.CamundaBpmData
-import io.holunda.camunda.bpm.data.guard.CamundaBpmDataGuards
-import io.holunda.camunda.bpm.data.guard.GuardViolation
+import org.cibseven.community.bpm.data.CamundaBpmData
+import org.cibseven.community.bpm.data.guard.CamundaBpmDataGuards
+import org.cibseven.community.bpm.data.guard.GuardViolation
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import java.util.*

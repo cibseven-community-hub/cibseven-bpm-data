@@ -1,4 +1,4 @@
-package io.holunda.camunda.bpm.data.itest
+package org.cibseven.community.bpm.data.itest
 
 import com.tngtech.jgiven.Stage
 import com.tngtech.jgiven.annotation.BeforeScenario
