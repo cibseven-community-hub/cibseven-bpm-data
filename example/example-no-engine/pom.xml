@@ -44,13 +44,11 @@
     <dependency>
       <groupId>org.cibseven.spin</groupId>
       <artifactId>cibseven-spin-core</artifactId>
-      <version>${cibseven.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.cibseven.spin</groupId>
       <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>
-      <version>${cibseven.version}</version>
     </dependency>
 
     <!-- Jackson -->

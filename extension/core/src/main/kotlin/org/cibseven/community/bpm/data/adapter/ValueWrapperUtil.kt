@@ -6,7 +6,7 @@ import java.io.File
 import java.util.*
 
 /**
- * Static util methods to detect Camunda's value type best fitting to the requested class.
+ * Static util methods to detect CIB seven's value type best fitting to the requested class.
  */
 object ValueWrapperUtil {
 

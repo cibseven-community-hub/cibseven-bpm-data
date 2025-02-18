@@ -5,7 +5,7 @@
 
 > Beautiful process data handling for CIB seven.
 
-## Why to use this library in every Camunda project
+## Why to use this library in every CIB seven project
 
 If you are a software engineer and run process automation projects in your company or on behalf of the customer
 based on CIB seven Process Engine, you probably are familiar with process variables. CIB seven offers an API to access
@@ -18,7 +18,7 @@ these snippets to a single process execution, it makes refactoring and testing o
 error-prone and challenging.
 
 This library helps you to overcome these difficulties and make access, manipulation and testing process variables really
-easy and convenient. We leverage the CIB seven API and offer you not only a better API but also some [additional features](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/features.html).
+easy and convenient. We leverage the CIB seven API and offer you not only a better API but also some [additional features](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/features.md).
 
 If you want to read more about data in CIB seven processes, have a look on those articles:
 
@@ -179,17 +179,17 @@ public class ApproveOrderTaskControllerTest {
 ### Kotlin
 
 If you use kotlin, there is an own collection of factory methods by simple using `CamundaBpmDataKotlin` instead of `CamundaBpmData`.
-For usage examples, see here: [Examples Kotlin](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/examples-kotlin.html)
+For usage examples, see here: [Examples Kotlin](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-kotlin.md)
 
 ### Further documentation
 
-For further details, please consult our [Quick Start](https://www.holunda.io/camunda-bpm-data/snapshot/quick-start)
-guide or have a look to our primary documentation: [User Guide](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/motivation.html)
+For further details, please consult our [Quick Start](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/quick-start.md)
+guide or have a look to our primary documentation: [User Guide](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/motivation.md)
 
 ## Working Example
 
 We prepared some typical usage scenarios and implemented two example projects in Java and Kotlin.
-See our [Examples](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/examples.html) section for usage and configuration.
+See our [Example Java](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-java.md), [Example Kotlin](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-kotlin.md) and [Example No Engine](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-no-engine.md) for usage and configuration.
 
 ## Versions
 
@@ -205,7 +205,7 @@ This library is developed under Apache 2.0 License.
 
 ## Contribution
 
-If you want to contribute to this project, feel free to do so. Start with [Contributing guide](http://holunda.io/camunda-bpm-data/snapshot/developer-guide/contribution.html).
+If you want to contribute to this project, feel free to do so. Start with [Contributing guide](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/developer-guide/contribution.md).
 
 ## Maintainer
 

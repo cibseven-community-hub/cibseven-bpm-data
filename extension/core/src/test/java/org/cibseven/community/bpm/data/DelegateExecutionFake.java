@@ -14,7 +14,7 @@ import static org.mockito.Answers.RETURNS_DEEP_STUBS;
 import static org.mockito.Mockito.when;
 
 /**
- * Copy of the fake to avoid dependency to camunda-platform-7-mockito (to avoid cyclic dependency graph).
+ * Copy of the fake to avoid dependency to cibseven-mockito (to avoid cyclic dependency graph).
  */
 @SuppressWarnings({"WeakerAccess","UnusedReturnValue", "unused"})
 public class DelegateExecutionFake extends DelegateFake<DelegateExecutionFake> implements DelegateExecution {

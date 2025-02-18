@@ -14,7 +14,7 @@ object CollectionTypedValueUtil {
     /**
      * Tries to read a collection type from a typed value containing the serialized json.
      *
-     * @param typedValue     value from camunda.
+     * @param typedValue     value from CIB seven.
      * @param variableName   name of the variable.
      * @param memberClazz    clazz of the collection member.
      * @param objectMapper   jackson object mapper.
@@ -58,7 +58,7 @@ object CollectionTypedValueUtil {
     /**
      * Tries to read a collection type from a typed value containing the serialized json.
      *
-     * @param typedValue   value from camunda.
+     * @param typedValue   value from CIB seven.
      * @param variableName name of the variable.
      * @param keyClazz     clazz of the map key.
      * @param valueClazz   clazz of the map value.

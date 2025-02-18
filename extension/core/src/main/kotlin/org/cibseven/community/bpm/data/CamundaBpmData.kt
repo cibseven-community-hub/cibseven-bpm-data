@@ -256,7 +256,7 @@ object CamundaBpmData {
     /**
      * Creates a new task variable reader.
      *
-     * @param taskService the Camunda task service
+     * @param taskService the CIB seven task service
      * @param taskId      the id of the task to use
      * @return variable reader working on task
      */
@@ -268,7 +268,7 @@ object CamundaBpmData {
     /**
      * Creates a new execution variable reader.
      *
-     * @param runtimeService the Camunda runtime service
+     * @param runtimeService the CIB seven runtime service
      * @param executionId    the executionId to use
      * @return variable reader working on execution
      */
@@ -280,7 +280,7 @@ object CamundaBpmData {
     /**
      * Creates a new execution variable reader.
      *
-     * @param caseService     the Camunda case service
+     * @param caseService     the CIB seven case service
      * @param caseExecutionId the caseExecutionId to use
      * @return variable reader working on execution
      */

@@ -17,7 +17,7 @@ import static org.cibseven.community.bpm.data.example.process.OrderApproval.ORDE
 public class OrderApprovalInstanceFactory {
 
   /**
-   * Runtime service to access Camunda API.
+   * Runtime service to access CIB seven API.
    */
   private final RuntimeService runtimeService;
 

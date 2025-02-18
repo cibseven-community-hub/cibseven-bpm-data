@@ -22,9 +22,4 @@ A good starting point is the [Quick Start](./quick-start.md). For more detailed 
 ## Get in touch
 
 If you are missing a feature, have a question regarding usage or deployment, you should definitely get in touch
-with the us. There are various ways to do so:
-
-* [![Gitter](https://badges.gitter.im/holunda-io/camunda-bpm-data.svg)](https://gitter.im/holunda-io/camunda-bpm-data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-* [Slack](https://holunda.slack.com/messages/camunda-bpm-data/)
-* [Github Issues](https://github.com/holunda-io/camunda-bpm-data/issues)
-* [Developer Guide](./developer-guide/contribution.md)
+with the us.

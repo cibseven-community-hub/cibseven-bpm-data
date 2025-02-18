@@ -5,7 +5,7 @@ import org.cibseven.bpm.engine.delegate.VariableScope
 import java.util.*
 
 /**
- * Allows reading multiple variable values from [VariableScope] (such as [org.camunda.bpm.engine.delegate.DelegateExecution] and [org.camunda.bpm.engine.delegate.DelegateTask]).
+ * Allows reading multiple variable values from [VariableScope] (such as [org.cibseven.bpm.engine.delegate.DelegateExecution] and [org.cibseven.bpm.engine.delegate.DelegateTask]).
  * @param variableScope scope to operate on.
  */
 class VariableScopeReader(private val variableScope: VariableScope) : VariableReader {

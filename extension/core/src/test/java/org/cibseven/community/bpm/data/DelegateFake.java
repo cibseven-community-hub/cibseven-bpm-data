@@ -5,7 +5,7 @@ import org.cibseven.bpm.engine.ProcessEngineServices;
 import org.cibseven.bpm.engine.delegate.ProcessEngineServicesAware;
 
 /**
- * Copy of the fake to avoid dependency to camunda-platform-7-mockito (to avoid cyclic dependency graph).
+ * Copy of the fake to avoid dependency to cibseven-mockito (to avoid cyclic dependency graph).
  */
 @SuppressWarnings({"rawtypes", "unchecked"})
 abstract class DelegateFake<T extends DelegateFake> extends VariableScopeFake<T> implements ProcessEngineServicesAware {

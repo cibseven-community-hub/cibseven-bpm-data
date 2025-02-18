@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Copy of the fake to avoid dependency to camunda-platform-7-mockito (to avoid cyclic dependency graph).
+ * Copy of the fake to avoid dependency to cibseven-mockito (to avoid cyclic dependency graph).
  */
 @SuppressWarnings({ "unchecked", "rawtypes" })
 public abstract class VariableScopeFake<T extends VariableScopeFake> extends AbstractVariableScope implements VariableScope {

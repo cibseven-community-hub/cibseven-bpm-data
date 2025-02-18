@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 import static org.cibseven.bpm.engine.task.IdentityLinkType.CANDIDATE;
 
 /**
- * Copy of the fake to avoid dependency to camunda-platform-7-mockito (to avoid cyclic dependency graph).
+ * Copy of the fake to avoid dependency to cibseven-mockito (to avoid cyclic dependency graph).
  */
 @SuppressWarnings({ "WeakerAccess", "UnusedReturnValue", "unused" })
 public class DelegateTaskFake extends DelegateFake<DelegateTaskFake> implements DelegateTask, Serializable {

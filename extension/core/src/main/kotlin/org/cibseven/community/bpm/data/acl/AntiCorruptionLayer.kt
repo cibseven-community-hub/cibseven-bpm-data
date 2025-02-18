@@ -51,7 +51,7 @@ class AntiCorruptionLayer(
 
   /**
    * Retrieves the ACL in form of an execution listener.
-   * @return Camunda Execution Listener responsible for variable extraction, guard check and modification.
+   * @return CIB seven Execution Listener responsible for variable extraction, guard check and modification.
    */
   fun getExecutionListener() = ExecutionListener { execution ->
     val variablesExternal = factory.from(execution).get()
@@ -63,7 +63,7 @@ class AntiCorruptionLayer(
 
   /**
    * Retrieves the ACL in form of a task listener.
-   * @return Camunda Task Listener responsible for variable extraction, guard check and modification.
+   * @return CIB seven Task Listener responsible for variable extraction, guard check and modification.
    */
   fun getTaskListener() = TaskListener { task ->
     val variablesExternal = factory.from(task).get()
