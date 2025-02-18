@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.holunda.data.example</groupId>
-    <artifactId>camunda-bpm-data-example-parent</artifactId>
-    <version>1.6.2-SNAPSHOT</version>
+    <groupId>org.cibseven.community.data.example</groupId>
+    <artifactId>cibseven-bpm-data-example-parent</artifactId>
+    <version>1.0.0</version>
   </parent>
 
-  <artifactId>camunda-bpm-data-coverage-report</artifactId>
+  <artifactId>cibseven-bpm-data-coverage-report</artifactId>
   <name>${project.artifactId}</name>
   <packaging>pom</packaging>
 
@@ -19,14 +19,14 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.holunda.data</groupId>
-      <artifactId>camunda-bpm-data</artifactId>
+      <groupId>org.cibseven.community.data</groupId>
+      <artifactId>cibseven-bpm-data</artifactId>
       <version>${project.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>io.holunda.data.example</groupId>
-      <artifactId>camunda-bpm-data-integration-test</artifactId>
+      <groupId>org.cibseven.community.data.example</groupId>
+      <artifactId>cibseven-bpm-data-integration-test</artifactId>
       <version>${project.version}</version>
       <scope>compile</scope>
     </dependency>

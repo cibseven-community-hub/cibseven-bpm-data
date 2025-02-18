@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.holunda.data</groupId>
-    <artifactId>camunda-bpm-data-parent</artifactId>
-    <version>1.6.2-SNAPSHOT</version>
+    <groupId>org.cibseven.community.data</groupId>
+    <artifactId>cibseven-bpm-data-parent</artifactId>
+    <version>1.0.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <artifactId>camunda-bpm-data</artifactId>
+  <artifactId>cibseven-bpm-data</artifactId>
   <name>${project.artifactId}</name>
   <packaging>jar</packaging>
 
@@ -39,18 +39,19 @@
 
     <!-- Engine -->
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-engine</artifactId>
+      <version>${cibseven.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-core</artifactId>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-core</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.spin</groupId>
-      <artifactId>camunda-spin-dataformat-json-jackson</artifactId>
+      <groupId>org.cibseven.spin</groupId>
+      <artifactId>cibseven-spin-dataformat-json-jackson</artifactId>
       <scope>provided</scope>
     </dependency>
 
@@ -62,13 +63,15 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-assert</artifactId>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-bpm-assert</artifactId>
+      <version>${cibseven.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-bpm-junit5</artifactId>
+      <groupId>org.cibseven.bpm</groupId>
+      <artifactId>cibseven-bpm-junit5</artifactId>
+      <version>${cibseven.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>

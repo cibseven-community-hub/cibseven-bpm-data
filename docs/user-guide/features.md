@@ -3,7 +3,7 @@
     - The adapter contains variable type.
     - The adapter can be applied in any context (`RuntimeService`, `TaskService`, `CaseService`, `DelegateExecution`, `DelegateTask`, `DelegateCaseExecution`, `VariableMap`, `LockedExternalTask`).
     - The adapter offers methods to read, write, update and remove variable values.
-    - The adapter works for all types supported by Camunda BPM. This includes primitive types, object and container types ( `List<T>`, `Set<T>`, `Map<K , V>` ).
+    - The adapter works for all types supported by CIB seven BPM. This includes primitive types, object and container types ( `List<T>`, `Set<T>`, `Map<K , V>` ).
     - The adapter supports global / local variables.
     - The adapter allows a default value or null in case a variable is not set.
     - The adapter support transient variables.

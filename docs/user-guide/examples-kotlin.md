@@ -4,7 +4,7 @@ The following snippets demonstrate the usage of the library from Kotlin
 
 ``` kotlin
 
-import io.holunda.data.CamundaBpmDataKotlin
+import org.cibseven.community.data.CamundaBpmDataKotlin
 
 object Variables {
     val ORDER_ID = stringVariable("orderId")
@@ -17,12 +17,12 @@ object Variables {
 
 ### Define nonNull variable
 
-**IMPORTANT:** Since 1.5.0 all predefined variable types are nullable by default. (For more information, see  here: [Github Issue](https://github.com/holunda-io/camunda-bpm-data/issues/394))
+**IMPORTANT:** All predefined variable types are nullable by default. (For more information, see  here: [Github Issue](https://github.com/holunda-io/camunda-bpm-data/issues/394))
 If you want to define a variable to be non-null-able, please call nonNull on variable factory as shown in the example below.
 
 ``` kotlin
 
-import io.holunda.data.CamundaBpmDataKotlin
+import org.cibseven.community.data.CamundaBpmDataKotlin
 
 object Variables {
     val ORDER_ID: VariableFactory<String> = stringVariable("orderId").nonNull
@@ -97,7 +97,7 @@ class JavaDelegates {
 ## Fluent API to remove several variables
 
 ``` kotlin
-import io.holunda.camunda.bpm.data.remove
+import org.cibseven.community.bpm.data.remove
 
 @Configuration
 class JavaDelegates {
@@ -262,4 +262,4 @@ class MyDocument(@field:Email val email: String)
 ## Example project
 
 For more examples, please check out the Kotlin Example project, at
-[GitHub](https://github.com/holunda-io/camunda-bpm-data/tree/develop/example/example-kotlin).
+[GitHub](https://github.com/cibseven-community-hub/cibseven-bpm-data/tree/develop/example/example-kotlin).

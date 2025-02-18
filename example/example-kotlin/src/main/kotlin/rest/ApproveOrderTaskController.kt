@@ -1,11 +1,11 @@
-package io.holunda.camunda.bpm.data.example.kotlin.rest
+package org.cibseven.community.bpm.data.example.kotlin.rest
 
-import io.holunda.camunda.bpm.data.example.kotlin.domain.Order
-import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER
-import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_APPROVED
-import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_TOTAL
-import org.camunda.bpm.engine.TaskService
-import org.camunda.bpm.engine.variable.Variables.createVariables
+import org.cibseven.community.bpm.data.example.kotlin.domain.Order
+import org.cibseven.community.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER
+import org.cibseven.community.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_APPROVED
+import org.cibseven.community.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_TOTAL
+import org.cibseven.bpm.engine.TaskService
+import org.cibseven.bpm.engine.variable.Variables.createVariables
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.math.BigDecimal

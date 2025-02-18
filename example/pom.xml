@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.holunda.data</groupId>
-    <artifactId>camunda-bpm-data-parent</artifactId>
-    <version>1.6.2-SNAPSHOT</version>
+    <groupId>org.cibseven.community.data</groupId>
+    <artifactId>cibseven-bpm-data-parent</artifactId>
+    <version>1.0.0</version>
   </parent>
 
-  <groupId>io.holunda.data.example</groupId>
-  <artifactId>camunda-bpm-data-example-parent</artifactId>
+  <groupId>org.cibseven.community.data.example</groupId>
+  <artifactId>cibseven-bpm-data-example-parent</artifactId>
   <name>${project.artifactId}</name>
   <packaging>pom</packaging>
 
@@ -35,10 +35,10 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- CAMUNDA BPM DATA -->
+
       <dependency>
-        <groupId>io.holunda.data</groupId>
-        <artifactId>camunda-bpm-data</artifactId>
+        <groupId>org.cibseven.community</groupId>
+        <artifactId>cibseven-bpm-data</artifactId>
         <version>${project.version}</version>
       </dependency>
 

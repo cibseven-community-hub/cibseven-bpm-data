@@ -264,4 +264,4 @@ class MyDocument {
 ## Example project
 
 For more examples, please check out the Java Example project, at
-[GitHub](https://github.com/holunda-io/camunda-bpm-data/tree/develop/example/example-java)
+[GitHub](https://github.com/cibseven-community-hub/cibseven-bpm-data/tree/develop/example/example-java)

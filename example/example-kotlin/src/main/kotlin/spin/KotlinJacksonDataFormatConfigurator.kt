@@ -1,9 +1,9 @@
-package io.holunda.camunda.bpm.data.example.kotlin.spin
+package org.cibseven.community.bpm.data.example.kotlin.spin
 
 import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.module.kotlin.KotlinModule
-import org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat
-import org.camunda.spin.spi.DataFormatConfigurator
+import org.cibseven.spin.impl.json.jackson.format.JacksonJsonDataFormat
+import org.cibseven.spin.spi.DataFormatConfigurator
 
 class KotlinJacksonDataFormatConfigurator : DataFormatConfigurator<JacksonJsonDataFormat> {
 

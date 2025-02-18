@@ -1,8 +1,8 @@
-package io.holunda.camunda.bpm.data.example.kotlin.process
+package org.cibseven.community.bpm.data.example.kotlin.process
 
-import io.holunda.camunda.bpm.data.builder.VariableMapBuilder
-import io.holunda.camunda.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_ID
-import org.camunda.bpm.engine.RuntimeService
+import org.cibseven.community.bpm.data.builder.VariableMapBuilder
+import org.cibseven.community.bpm.data.example.kotlin.process.OrderApproval.Variables.ORDER_ID
+import org.cibseven.bpm.engine.RuntimeService
 import org.springframework.stereotype.Component
 import java.util.*
 

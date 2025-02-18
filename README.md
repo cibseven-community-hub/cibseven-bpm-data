@@ -1,32 +1,26 @@
-## Camunda BPM Data
+## CIB seven BPM Data
 
-[![stable](https://img.shields.io/badge/lifecycle-STABLE-green.svg)](https://github.com/holisticon#open-source-lifecycle)
-[![Camunda 7.20](https://img.shields.io/badge/Camunda%20Version-7.20-orange.svg)](https://docs.camunda.org/manual/7.20/)
-[![Development branches](https://github.com/holunda-io/camunda-bpm-data/actions/workflows/default.yml/badge.svg)](https://github.com/holunda-io/camunda-bpm-data/actions/workflows/default.yml)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.holunda.data/camunda-bpm-data/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.holunda.data/camunda-bpm-data)
-[![CodeCov](https://codecov.io/gh/holunda-io/camunda-bpm-data/branch/master/graph/badge.svg)](https://codecov.io/gh/holunda-io/camunda-bpm-data)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/02d238f71a8243cb96fd2fe322a710eb)](https://www.codacy.com/gh/holunda-io/camunda-bpm-data/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=holunda-io/camunda-bpm-data&amp;utm_campaign=Badge_Grade)
-[![Release notes](https://img.shields.io/badge/RELEASE_NOTES-yellow)](https://www.holunda.io/camunda-bpm-data/releases)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.cibseven.community.data/cibseven-bpm-data/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.cibseven.community.data/cibseven-bpm-data)
 
 
-> Beautiful process data handling for Camunda Platform 7.
+> Beautiful process data handling for CIB seven.
 
-## Why to use this library in every Camunda project
+## Why to use this library in every CIB seven project
 
 If you are a software engineer and run process automation projects in your company or on behalf of the customer
-based on Camunda Process Engine, you probably are familiar with process variables. Camunda offers an API to access
+based on CIB seven Process Engine, you probably are familiar with process variables. CIB seven offers an API to access
 them and thereby manipulate the state of the process execution - one of the core features during process automation.
 
-Unfortunately, as a user of the Camunda Platform 7 API, you have to exactly know the variable type (so the Java class behind it).
+Unfortunately, as a user of the CIB seven API, you have to exactly know the variable type (so the Java class behind it).
 For example, if you store a String in a variable `"orderId"` you must extract it as a String in every piece of code.
 Since there is no code connection between the different code parts, but the BPMN process model orchestrates
 these snippets to a single process execution, it makes refactoring and testing of process automation projects
 error-prone and challenging.
 
 This library helps you to overcome these difficulties and make access, manipulation and testing process variables really
-easy and convenient. We leverage the Camunda Platform 7 API and offer you not only a better API but also some [additional features](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/features.html).
+easy and convenient. We leverage the CIB seven API and offer you not only a better API but also some [additional features](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/features.md).
 
-If you want to read more about data in Camunda processes, have a look on those articles:
+If you want to read more about data in CIB seven processes, have a look on those articles:
 
   * [Camunda Nation Podcast - Managing Data in Processes, with Simon Zambrovski](https://podcasts.apple.com/us/podcast/managing-data-in-processes-with-simon-zambrovski/id1478382505?i=1000547023972)
   * [Data in Process (Part 1)](https://medium.com/holisticon-consultants/data-in-process-part-1-2620bf9abd76)
@@ -40,29 +34,29 @@ If you just want to start using the library, put the following dependency into y
 
 ``` xml
 <dependency>
-  <groupId>io.holunda.data</groupId>
-  <artifactId>camunda-bpm-data</artifactId>
-  <version>1.5.0</version>
+  <groupId>org.cibseven.community.data</groupId>
+  <artifactId>cibseven-bpm-data</artifactId>
+  <version>1.0.0</version>
 </dependency>
 ```
 
 If you are using Gradle Kotlin DSL add to your `build.gradle.kts`:
 
 ``` kotlin
-implementation("io.holunda.data:camunda-bpm-data:1.5.0")
+implementation("org.cibseven.community.data:cibseven-bpm-data:1.5.0")
 ```
 
 For Gradle Groovy DSL add to your `build.gradle`:
 
 ``` groovy
-implementation 'io.holunda.data:camunda-bpm-data:1.5.0'
+implementation 'org.cibseven.community.data:cibseven-bpm-data:1.5.0'
 ```
 ### Variable declaration
 Now your setup is completed, and you can declare your variables like this:
 
 ``` java
-import io.holunda.camunda.bpm.data.factory.VariableFactory;
-import static io.holunda.camunda.bpm.data.CamundaBpmData.*;
+import org.cibseven.community.bpm.data.factory.VariableFactory;
+import static org.cibseven.community.bpm.data.CamundaBpmData.*;
 
 public class OrderApproval {
   public static final VariableFactory<String> ORDER_ID = stringVariable("orderId");
@@ -135,11 +129,11 @@ public class ApproveOrderTaskController {
 
 If you want to write the test for the REST controller, you will need to stub
 the task service and verify that the correct variables has been set. To simplify
-these tests, we added some helper code to the famous library `camunda-platform-7-mockito`.
+these tests, we added some helper code to the famous library `cibseven-mockito`.
 
-Now you can use `TaskServiceVariableStubBuilder` to stub correct behavior of Camunda Task Service
+Now you can use `TaskServiceVariableStubBuilder` to stub correct behavior of CIB seven Task Service
 and `TaskServiceVerification` to verify the correct access to variables easily. Here is the JUnit
-test of the REST controller above, making use of `camunda-platform-7-mockito`.
+test of the REST controller above, making use of `cibseven-mockito`.
 
 ``` java
 public class ApproveOrderTaskControllerTest {
@@ -185,17 +179,23 @@ public class ApproveOrderTaskControllerTest {
 ### Kotlin
 
 If you use kotlin, there is an own collection of factory methods by simple using `CamundaBpmDataKotlin` instead of `CamundaBpmData`.
-For usage examples, see here: [Examples Kotlin](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/examples-kotlin.html)
+For usage examples, see here: [Examples Kotlin](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-kotlin.md)
 
 ### Further documentation
 
-For further details, please consult our [Quick Start](https://www.holunda.io/camunda-bpm-data/snapshot/quick-start)
-guide or have a look to our primary documentation: [User Guide](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/motivation.html)
+For further details, please consult our [Quick Start](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/quick-start.md)
+guide or have a look to our primary documentation: [User Guide](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/motivation.md)
 
 ## Working Example
 
 We prepared some typical usage scenarios and implemented two example projects in Java and Kotlin.
-See our [Examples](https://www.holunda.io/camunda-bpm-data/snapshot/user-guide/examples.html) section for usage and configuration.
+See our [Example Java](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-java.md), [Example Kotlin](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-kotlin.md) and [Example No Engine](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/user-guide/examples-no-engine.md) for usage and configuration.
+
+## Versions
+
+io.holunda.data:camunda-bpm-data | org.cibseven.community.data:cibseven-bpm-data
+--- | --- 
+1.6.1 | 1.0.0
 
 ## License
 
@@ -205,7 +205,7 @@ This library is developed under Apache 2.0 License.
 
 ## Contribution
 
-If you want to contribute to this project, feel free to do so. Start with [Contributing guide](http://holunda.io/camunda-bpm-data/snapshot/developer-guide/contribution.html).
+If you want to contribute to this project, feel free to do so. Start with [Contributing guide](https://github.com/cibseven-community-hub/cibseven-bpm-data/blob/main/docs/developer-guide/contribution.md).
 
 ## Maintainer
 
