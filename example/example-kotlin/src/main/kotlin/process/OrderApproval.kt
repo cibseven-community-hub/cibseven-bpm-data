@@ -16,7 +16,7 @@ import org.cibseven.community.bpm.data.guard.VariablesGuard
 import org.cibseven.community.bpm.data.guard.condition.exists
 import org.cibseven.community.bpm.data.guard.condition.matches
 import org.cibseven.community.bpm.data.guard.integration.DefaultGuardTaskListener
-import mu.KLogging
+import io.github.oshai.kotlinlogging.KotlinLogging
 import org.cibseven.bpm.engine.delegate.DelegateExecution
 import org.cibseven.bpm.engine.delegate.DelegateTask
 import org.cibseven.bpm.engine.delegate.ExecutionListener
@@ -28,6 +28,8 @@ import org.springframework.context.event.EventListener
 import java.math.BigDecimal
 import java.util.*
 
+private val logger = KotlinLogging.logger {}
+
 /**
  * Backing bean.
  */
@@ -37,7 +39,7 @@ class OrderApproval {
   @Autowired
   lateinit var orderRepository: OrderRepository
 
-  companion object : KLogging() {
+  companion object {
     const val KEY = "order-approval"
   }
 
