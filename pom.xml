@@ -29,7 +29,7 @@
 
     <cibseven.version>2.0.0-SNAPSHOT</cibseven.version>
 
-    <spring-boot.version>3.4.2</spring-boot.version>
+    <spring-boot.version>3.4.3</spring-boot.version>
     <spin.version>${cibseven.version}</spin.version>
     <cibseven-assert.version>${cibseven.version}</cibseven-assert.version>
 
