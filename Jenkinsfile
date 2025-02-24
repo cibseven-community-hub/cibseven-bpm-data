@@ -100,7 +100,7 @@ pipeline {
             steps {
                 script {
                     withMaven(options: [junitPublisher(disabled: false), jacocoPublisher(disabled: false)]) {
-                        sh "mvn -T4 -Dbuild.number=${BUILD_NUMBER} -X clean install"
+                        sh "mvn -T4 -Dbuild.number=${BUILD_NUMBER} install"
                     }
                     if (!params.DEPLOY_TO_ARTIFACTS && !params.DEPLOY_TO_MAVEN_CENTRAL) {
                         junit allowEmptyResults: true, testResults: ConstantsInternal.MAVEN_TEST_RESULTS
