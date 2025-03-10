@@ -1,7 +1,7 @@
 package org.cibseven.community.bpm.data.example.kotlin
 
+
 import org.cibseven.community.bpm.data.example.kotlin.process.OrderApprovalInstanceFactory
-import mu.KLogging
 import org.cibseven.bpm.spring.boot.starter.annotation.EnableProcessApplication
 import org.cibseven.bpm.spring.boot.starter.event.PostDeployEvent
 import org.springframework.beans.factory.annotation.Autowired
@@ -14,8 +14,6 @@ fun main(args: Array<String>) = runApplication<CamundaBpmDataKotlinExampleApplic
 @SpringBootApplication
 @EnableProcessApplication
 class CamundaBpmDataKotlinExampleApplication {
-
-  companion object : KLogging()
 
   @Autowired
   lateinit var orderApprovalInstanceFactory: OrderApprovalInstanceFactory
