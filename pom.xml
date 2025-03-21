@@ -33,7 +33,7 @@
     <spin.version>${cibseven.version}</spin.version>
     <cibseven-assert.version>${cibseven.version}</cibseven-assert.version>
 
-    <kotlin.version>2.1.10</kotlin.version>
+    <kotlin.version>2.1.20</kotlin.version>
     <jgiven.version>2.0.2</jgiven.version>
     <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
 
