@@ -1,6 +1,6 @@
 ## CIB seven BPM Data
 
-[![CIB seven 1.1.0](https://img.shields.io/badge/CIB%20seven-1.1.0-orange.svg)](https://docs.cibseven.org/manual/1.1/)
+[![CIB seven 2.0.0](https://img.shields.io/badge/CIB%20seven-2.0.0-orange.svg)](https://docs.cibseven.org/manual/2.0/)
 [![Maven Central](https://img.shields.io/maven-central/v/org.cibseven.community.data/cibseven-bpm-data?label=Maven%20Central)](https://central.sonatype.com/artifact/org.cibseven.community.data/cibseven-bpm-data)
 
 > Beautiful process data handling for CIB seven.
@@ -36,20 +36,20 @@ If you just want to start using the library, put the following dependency into y
 <dependency>
   <groupId>org.cibseven.community.data</groupId>
   <artifactId>cibseven-bpm-data</artifactId>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 
 If you are using Gradle Kotlin DSL add to your `build.gradle.kts`:
 
 ``` kotlin
-implementation("org.cibseven.community.data:cibseven-bpm-data:1.0.0")
+implementation("org.cibseven.community.data:cibseven-bpm-data:2.0.0")
 ```
 
 For Gradle Groovy DSL add to your `build.gradle`:
 
 ``` groovy
-implementation 'org.cibseven.community.data:cibseven-bpm-data:1.0.0'
+implementation 'org.cibseven.community.data:cibseven-bpm-data:2.0.0'
 ```
 ### Variable declaration
 Now your setup is completed, and you can declare your variables like this:
@@ -196,6 +196,8 @@ See our [Example Java](https://github.com/cibseven-community-hub/cibseven-bpm-da
 io.holunda.data:camunda-bpm-data | org.cibseven.community.data:cibseven-bpm-data
 --- | --- 
 1.6.1 | 1.0.0
+--- | --- 
+1.6.2 | 2.0.0
 
 ## License
 
