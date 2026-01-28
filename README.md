@@ -196,7 +196,6 @@ See our [Example Java](https://github.com/cibseven-community-hub/cibseven-bpm-da
 io.holunda.data:camunda-bpm-data | org.cibseven.community.data:cibseven-bpm-data
 --- | --- 
 1.6.1 | 1.0.0
---- | --- 
 1.6.2 | 2.0.0
 
 ## License
