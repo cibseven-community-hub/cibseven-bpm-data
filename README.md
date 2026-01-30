@@ -36,7 +36,7 @@ If you just want to start using the library, put the following dependency into y
 <dependency>
   <groupId>org.cibseven.community.data</groupId>
   <artifactId>cibseven-bpm-data</artifactId>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
 </dependency>
 ```
 
