@@ -27,18 +27,18 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <version.java>${java.version}</version.java>
 
-    <cibseven.version>2.0.0</cibseven.version>
+    <cibseven.version>2.1.0</cibseven.version>
 
-    <spring-boot.version>3.4.5</spring-boot.version>
+    <spring-boot.version>3.5.6</spring-boot.version>
     <spin.version>${cibseven.version}</spin.version>
     <cibseven-assert.version>${cibseven.version}</cibseven-assert.version>
 
-    <kotlin.version>2.1.20</kotlin.version>
-    <jgiven.version>2.0.2</jgiven.version>
+    <kotlin.version>2.2.20</kotlin.version>
+    <jgiven.version>2.0.3</jgiven.version>
     <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
 
-    <kotlin-logging.version>7.0.7</kotlin-logging.version>
-    <mockito-kotlin.version>5.4.0</mockito-kotlin.version>
+    <kotlin-logging.version>7.0.13</kotlin-logging.version>
+    <mockito-kotlin.version>6.1.0</mockito-kotlin.version>
 
     <pattern.class.itest>%regex[.*ITest.*]</pattern.class.itest>
 
@@ -167,11 +167,8 @@
           <groupId>org.jetbrains.kotlin</groupId>
           <version>${kotlin.version}</version>
           <configuration>
-            <languageVersion>1.9</languageVersion>
-            <apiVersion>1.9</apiVersion>
-            <args>
-              <arg>-Xinline-classes</arg>
-            </args>
+            <languageVersion>2.1</languageVersion>
+            <apiVersion>2.1</apiVersion>
             <jvmTarget>${java.version}</jvmTarget>
             <compilerPlugins>
               <plugin>spring</plugin>
