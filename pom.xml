@@ -27,18 +27,18 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <version.java>${java.version}</version.java>
 
-    <cibseven.version>2.1.0</cibseven.version>
+    <cibseven.version>2.2.0</cibseven.version>
 
-    <spring-boot.version>3.5.6</spring-boot.version>
+    <spring-boot.version>4.0.6</spring-boot.version>
     <spin.version>${cibseven.version}</spin.version>
     <cibseven-assert.version>${cibseven.version}</cibseven-assert.version>
 
-    <kotlin.version>2.2.21</kotlin.version>
+    <kotlin.version>2.4.0</kotlin.version>
     <jgiven.version>2.0.3</jgiven.version>
     <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
 
-    <kotlin-logging.version>7.0.13</kotlin-logging.version>
-    <mockito-kotlin.version>6.1.0</mockito-kotlin.version>
+    <kotlin-logging.version>8.0.4</kotlin-logging.version>
+    <mockito-kotlin.version>6.3.0</mockito-kotlin.version>
 
     <pattern.class.itest>%regex[.*ITest.*]</pattern.class.itest>
 
