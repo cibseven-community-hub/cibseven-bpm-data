@@ -38,12 +38,12 @@
     </dependency>
     <dependency>
       <groupId>org.cibseven.bpm.springboot</groupId>
-      <artifactId>cibseven-bpm-spring-boot-starter-webapp</artifactId>
+      <artifactId>cibseven-bpm-spring-boot-starter-webapp-4</artifactId>
       <version>${cibseven.version}</version>
     </dependency>
     <dependency>
       <groupId>org.cibseven.bpm.springboot</groupId>
-      <artifactId>cibseven-bpm-spring-boot-starter-rest</artifactId>
+      <artifactId>cibseven-bpm-spring-boot-starter-rest-4</artifactId>
       <version>${cibseven.version}</version>
     </dependency>
     <dependency>
@@ -83,10 +83,6 @@
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib-common</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
